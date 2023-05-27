@@ -1,0 +1,44 @@
+font-family: 'Poppins', sans-serif;
+
+font-family: 'Inter', sans-serif;
+
+font-family: 'Chakra Petch', sans-serif;
+
+font-family: 'Orbitron', sans-serif;
+
+main color : #080B2A
+
+
+    font-family: var(--poppin-font);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    color: #FFFFFF;
+
+
+    .ready_to_diven_shape span:nth-child(1){
+    display: block;
+    width: 400px;
+    height: 400px;
+    background: #7d2a8479;
+    filter: blur(50px);
+    -webkit-filter: blur(100px);
+    position: absolute;
+    z-index: -1;
+    bottom: -150px;
+    left: -150px;
+
+}
+.ready_to_diven_shape span:nth-child(2){
+    display: block;
+    width: 400px;
+    height: 400px;
+    background: #ffffff7c;
+    filter: blur(50px);
+    -webkit-filter: blur(200px);
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: -250px;
+}
