@@ -172,7 +172,8 @@ nav ul li a:hover{
     position: absolute;
     width: 750px;
     right: -180px;
-    top: -330px;
+    top: -240px;
+
 }
 .bnr_shape span:nth-child(1){
     display: block;
@@ -206,29 +207,9 @@ nav ul li a:hover{
 }
 .bnr_shape span  img{
     display: block;
-    animation: move .4s infinite;
-    -webkit-animation: move .4s infinite;
-}
-@keyframes move {
 
-    0%{
-        right: 0;
-        top: 0;
-    }
-    25%{
-        right: 100px;
-        top: -100px;
-    }
-    50%{
-        right: 500px;
-        top: -500px;
-    }
-    100%{
-        right: 0;
-        top: 0;
-    }
-    
 }
+
 /* 
 |
 | 2. Banner Style End
