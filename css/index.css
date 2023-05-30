@@ -100,9 +100,10 @@ header p{
     padding: 10px 0;
 }
 nav{
-    position: fixed;
+    /* position: fixed !important; */
     top: 10px;
     z-index: 9999999;
+    width: 100%;
 }
 nav ul li a{
     font-family: var(--inter-font);
