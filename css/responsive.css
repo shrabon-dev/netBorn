@@ -167,7 +167,7 @@
         width: 180px;
         position: absolute;
         bottom: 0;
-        right: -50px;
+        right: 0px;
     }
     #ready_to_diven_section .text .button{
         margin-top: 0 !important;
@@ -329,7 +329,7 @@
     }
     .card_2_img img{
         margin-left: -35px;
-        width: 120%;
+        width: 114%;
         border-radius: 0px !important;
         -webkit-border-radius: 0px !important;
         -moz-border-radius: 0px !important;
@@ -931,6 +931,135 @@
         left: 86px !important;
     }
 
+    /* All position set for mobile devices */
+    .card_shape span:nth-child(2){
+        width: 200px !important;
+        rotate: 0deg;
+    }
+    .bnr_img  img{
+        position: absolute;
+        width: 100%;
+        right: 0px;
+        top: -380px !important;
+    }
+    #banner_sec .bnr_txt .p{
+        font-size: 12px;
+    }
+    .bnr_shape span:nth-child(1){
+        width: 100%;
+        height: 300px;
+    }
+    .bnr_shape span:nth-child(2){
+        display: block;
+        width: 100%;
+        height: 300px;
+        left: 0px;
+    }
+    .ready_to_diven_shape span:nth-child(1){
+        width: 100%;
+        height: 300px;
+        left: 0px;
+    }
+    .ready_to_diven_shape span:nth-child(2){
+        width: 100%;
+        height: 300px;
+        right: 0px;
+    }
+    .modes_shape span:nth-child(1){
+        width: 100%;
+        height: 300px;
+        left: 0px;
+    }
+    .card_shape span:nth-child(2){
+        right: 0px;
+    }
+    .card_2_shape span:nth-child(1){
+        width: 100%;
+        height: 300px;
+    }
+    .card_2_shape span:nth-child(2){
+        width: 100%;
+        height: 300px;
+        right: 0px;
+    }
+    .choosing_bg_shape{
+        width: 100%;
+        height: 300px;
+        left: 10%;
+    }
+    .road_map_shape span:nth-child(1){
+        width: 100%;
+        height: 600px;
+        left: 0px;
+    }
+    .road_map_shape span:nth-child(2){
+        width: 100%;
+        height: 400px;
+        right: 0px;
+    }
+    .discord_shape span:nth-child(1){
+        width: 100%;
+        height: 300px;
+        left: 0px;
+    }
+    .discord_shape span:nth-child(2){
+        width: 100%;
+        height: 400px;
+    }
+    .coming_shape span:nth-child(2){
+        width: 100%;
+        height: 200px;
+    }
+    .small_bg{
+        width: 100%;
+    }
+    .allocation_shape span:nth-child(1){
+        display: block;
+        width: 100%;
+        height: 300px;
+        background: #7d2a8479;
+        filter: blur(100px);
+        -webkit-filter: blur(100px);
+        position: absolute;
+        z-index: -1;
+        bottom: 0;
+        left: 0px;
+    }
+    .allocation_shape span:nth-child(2){
+        width: 100%;
+    }
+    .allocation_shape span:nth-child(3){
+        width: 100%;
+        height: 400px;
+    }
+    .allocation_shape span:nth-child(4){
+        width: 100%;
+    }
+    .s_two_shape span:nth-child(2){
+        right: 0;
+    }
+    .m_r_200{
+        margin-right: 0;
+    }
+    .ambassidor_shape span:nth-child(1){
+        right: 0;
+    }
+    .ambassidor_shape span:nth-child(2){
+        left: 0;
+    }
+    /* All position set for mobile devices */
+
+}
+
+@media (min-width: 300px) and (max-width: 330px){
+.choosing_tabs .c_card {
+    width: 320px;
+    margin-left: -10px;
+}
+.choosing_tabs .c_card {
+    width: 320px;
+    margin-left: 0;
+}
 }
 /* 
 |
@@ -1650,6 +1779,120 @@
         margin: 0;
         padding: 0;
     }
+        /* All position set for mobile devices */
+        .card_shape span:nth-child(2){
+            width: 200px !important;
+            rotate: 0deg;
+        }
+        .bnr_img  img{
+            position: absolute;
+            width: 100%;
+            right: 0px;
+            top: 0px;
+        }
+        .bnr_shape span:nth-child(1){
+            width: 100%;
+            height: 300px;
+        }
+        .bnr_shape span:nth-child(2){
+            display: block;
+            width: 100%;
+            height: 300px;
+            left: 0px;
+        }
+        .ready_to_diven_shape span:nth-child(1){
+            width: 100%;
+            height: 300px;
+            left: 0px;
+        }
+        .ready_to_diven_shape span:nth-child(2){
+            width: 100%;
+            height: 300px;
+            right: 0px;
+        }
+        .modes_shape span:nth-child(1){
+            width: 100%;
+            height: 300px;
+            left: 0px;
+        }
+        .card_shape span:nth-child(2){
+            right: 0px;
+        }
+        .card_2_shape span:nth-child(1){
+            width: 100%;
+            height: 300px;
+        }
+        .card_2_shape span:nth-child(2){
+            width: 100%;
+            height: 300px;
+            right: 0px;
+        }
+        .choosing_bg_shape{
+            width: 100%;
+            height: 300px;
+            left: 10%;
+        }
+        .road_map_shape span:nth-child(1){
+            width: 100%;
+            height: 600px;
+            left: 0px;
+        }
+        .road_map_shape span:nth-child(2){
+            width: 100%;
+            height: 400px;
+            right: 0px;
+        }
+        .discord_shape span:nth-child(1){
+            width: 100%;
+            height: 300px;
+            left: 0px;
+        }
+        .discord_shape span:nth-child(2){
+            width: 100%;
+            height: 400px;
+        }
+        .coming_shape span:nth-child(2){
+            width: 100%;
+            height: 200px;
+        }
+        .small_bg{
+            width: 100%;
+        }
+        .allocation_shape span:nth-child(1){
+            display: block;
+            width: 100%;
+            height: 300px;
+            background: #7d2a8479;
+            filter: blur(100px);
+            -webkit-filter: blur(100px);
+            position: absolute;
+            z-index: -1;
+            bottom: 0;
+            left: 0px;
+        }
+        .allocation_shape span:nth-child(2){
+            width: 100%;
+        }
+        .allocation_shape span:nth-child(3){
+            width: 100%;
+            height: 400px;
+        }
+        .allocation_shape span:nth-child(4){
+            width: 100%;
+        }
+        .s_two_shape span:nth-child(2){
+            right: 0;
+        }
+        .m_r_200{
+            margin-right: 0;
+        }
+        .ambassidor_shape span:nth-child(1){
+            right: 0;
+        }
+        .ambassidor_shape span:nth-child(2){
+            left: 0;
+        }
+        /* All position set for mobile devices */
 }
 
 /* 
@@ -1995,6 +2238,7 @@
     #rank_section h5{
         font-size: 20px;
     }
+    
 
 }
 @media (min-width:992px) and (max-width:1199px) {
@@ -2005,7 +2249,7 @@
         position: absolute;
         width: 595px;
         right: -200px;
-        top: -250px;
+        top: -175px;
     }  
     #ready_to_diven_section .img img {
         width: 100%;

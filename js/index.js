@@ -19,3 +19,6 @@ $(window).scroll(function(){
 
 
 })
+
+
+      AOS.init({disable: 'mobile'});
