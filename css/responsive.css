@@ -328,13 +328,8 @@
         text-align: right;
     }
     .card_2_img img{
-        margin-left: -35px;
-        width: 114%;
-        border-radius: 0px !important;
-        -webkit-border-radius: 0px !important;
-        -moz-border-radius: 0px !important;
-        -ms-border-radius: 0px !important;
-        -o-border-radius: 0px !important;
+        margin-left:0;
+        width: 100%;
     }
     .card_2_text h5{
         font-size: 24px;
@@ -479,9 +474,9 @@
         padding: 50px 0;
     }
     #discord_section img{
-        width: 150% !important;
+        width: 100% !important;
         margin-bottom: -50px;
-        margin-left: -40px;
+        margin-left: 0px;
 
     }
     #discord_section picture:nth-child(1) img{
@@ -954,6 +949,13 @@
         width: 60%;
         height: 300px;
         left: 0px;
+    }
+    .bnr_shape span:nth-child(3){
+        position: absolute;
+        width: 300px;
+        overflow: hidden;
+        z-index: -1;
+        right: 0;
     }
     .ready_to_diven_shape span:nth-child(1){
         width: 50%;
