@@ -946,27 +946,27 @@
         font-size: 12px;
     }
     .bnr_shape span:nth-child(1){
-        width: 100%;
+        width: 60%;
         height: 300px;
     }
     .bnr_shape span:nth-child(2){
         display: block;
-        width: 100%;
+        width: 60%;
         height: 300px;
         left: 0px;
     }
     .ready_to_diven_shape span:nth-child(1){
-        width: 100%;
+        width: 50%;
         height: 300px;
         left: 0px;
     }
     .ready_to_diven_shape span:nth-child(2){
-        width: 100%;
+        width: 50%;
         height: 300px;
         right: 0px;
     }
     .modes_shape span:nth-child(1){
-        width: 100%;
+        width: 50% !important;
         height: 300px;
         left: 0px;
     }
@@ -974,40 +974,40 @@
         right: 0px;
     }
     .card_2_shape span:nth-child(1){
-        width: 100%;
+        width: 60%;
         height: 300px;
     }
     .card_2_shape span:nth-child(2){
-        width: 100%;
+        width: 60%;
         height: 300px;
         right: 0px;
     }
     .choosing_bg_shape{
-        width: 100%;
+        width: 60%;
         height: 300px;
         left: 10%;
     }
     .road_map_shape span:nth-child(1){
-        width: 100%;
+        width: 60%;
         height: 600px;
         left: 0px;
     }
     .road_map_shape span:nth-child(2){
-        width: 100%;
+        width: 60%;
         height: 400px;
         right: 0px;
     }
     .discord_shape span:nth-child(1){
-        width: 100%;
+        width: 60%;
         height: 300px;
         left: 0px;
     }
     .discord_shape span:nth-child(2){
-        width: 100%;
+        width: 60%;
         height: 400px;
     }
     .coming_shape span:nth-child(2){
-        width: 100%;
+        width: 60%;
         height: 200px;
     }
     .small_bg{
@@ -1015,7 +1015,7 @@
     }
     .allocation_shape span:nth-child(1){
         display: block;
-        width: 100%;
+        width: 60%;
         height: 300px;
         background: #7d2a8479;
         filter: blur(100px);
@@ -1026,14 +1026,14 @@
         left: 0px;
     }
     .allocation_shape span:nth-child(2){
-        width: 100%;
+        width: 60%;
     }
     .allocation_shape span:nth-child(3){
-        width: 100%;
+        width: 60%;
         height: 400px;
     }
     .allocation_shape span:nth-child(4){
-        width: 100%;
+        width: 60%;
     }
     .s_two_shape span:nth-child(2){
         right: 0;
@@ -1779,120 +1779,355 @@
         margin: 0;
         padding: 0;
     }
-        /* All position set for mobile devices */
-        .card_shape span:nth-child(2){
-            width: 200px !important;
-            rotate: 0deg;
-        }
-        .bnr_img  img{
-            position: absolute;
-            width: 100%;
-            right: 0px;
-            top: 0px;
-        }
-        .bnr_shape span:nth-child(1){
-            width: 100%;
-            height: 300px;
-        }
-        .bnr_shape span:nth-child(2){
-            display: block;
-            width: 100%;
-            height: 300px;
-            left: 0px;
-        }
-        .ready_to_diven_shape span:nth-child(1){
-            width: 100%;
-            height: 300px;
-            left: 0px;
-        }
-        .ready_to_diven_shape span:nth-child(2){
-            width: 100%;
-            height: 300px;
-            right: 0px;
-        }
-        .modes_shape span:nth-child(1){
-            width: 100%;
-            height: 300px;
-            left: 0px;
-        }
-        .card_shape span:nth-child(2){
-            right: 0px;
-        }
-        .card_2_shape span:nth-child(1){
-            width: 100%;
-            height: 300px;
-        }
-        .card_2_shape span:nth-child(2){
-            width: 100%;
-            height: 300px;
-            right: 0px;
-        }
-        .choosing_bg_shape{
-            width: 100%;
-            height: 300px;
-            left: 10%;
-        }
-        .road_map_shape span:nth-child(1){
-            width: 100%;
-            height: 600px;
-            left: 0px;
-        }
-        .road_map_shape span:nth-child(2){
-            width: 100%;
-            height: 400px;
-            right: 0px;
-        }
-        .discord_shape span:nth-child(1){
-            width: 100%;
-            height: 300px;
-            left: 0px;
-        }
-        .discord_shape span:nth-child(2){
-            width: 100%;
-            height: 400px;
-        }
-        .coming_shape span:nth-child(2){
-            width: 100%;
-            height: 200px;
-        }
-        .small_bg{
-            width: 100%;
-        }
-        .allocation_shape span:nth-child(1){
-            display: block;
-            width: 100%;
-            height: 300px;
-            background: #7d2a8479;
-            filter: blur(100px);
-            -webkit-filter: blur(100px);
-            position: absolute;
-            z-index: -1;
-            bottom: 0;
-            left: 0px;
-        }
-        .allocation_shape span:nth-child(2){
-            width: 100%;
-        }
-        .allocation_shape span:nth-child(3){
-            width: 100%;
-            height: 400px;
-        }
-        .allocation_shape span:nth-child(4){
-            width: 100%;
-        }
-        .s_two_shape span:nth-child(2){
-            right: 0;
-        }
-        .m_r_200{
-            margin-right: 0;
-        }
-        .ambassidor_shape span:nth-child(1){
-            right: 0;
-        }
-        .ambassidor_shape span:nth-child(2){
-            left: 0;
-        }
-        /* All position set for mobile devices */
+    /* All position set for mobile devices */
+    .card_shape span:nth-child(2){
+        width: 200px !important;
+        rotate: 0deg;
+    }
+    .bnr_img  img{
+        position: absolute;
+        width: 100%;
+        right: 0px;
+        top: -380px !important;
+    }
+    #banner_sec .bnr_txt .p{
+        font-size: 12px;
+    }
+    .bnr_shape span:nth-child(1){
+        width: 60%;
+        height: 300px;
+    }
+    .bnr_shape span:nth-child(2){
+        display: block;
+        width: 60%;
+        height: 300px;
+        left: 0px;
+    }
+    .ready_to_diven_shape span:nth-child(1){
+        width: 50%;
+        height: 300px;
+        left: 0px;
+    }
+    .ready_to_diven_shape span:nth-child(2){
+        width: 50%;
+        height: 300px;
+        right: 0px;
+    }
+    .modes_shape span:nth-child(1){
+        width: 50% !important;
+        height: 300px;
+        left: 0px;
+    }
+    .card_shape span:nth-child(2){
+        right: 0px;
+    }
+    .card_2_shape span:nth-child(1){
+        width: 60%;
+        height: 300px;
+    }
+    .card_2_shape span:nth-child(2){
+        width: 60%;
+        height: 300px;
+        right: 0px;
+    }
+    .choosing_bg_shape{
+        width: 60%;
+        height: 300px;
+        left: 10%;
+    }
+    .road_map_shape span:nth-child(1){
+        width: 60%;
+        height: 600px;
+        left: 0px;
+    }
+    .road_map_shape span:nth-child(2){
+        width: 60%;
+        height: 400px;
+        right: 0px;
+    }
+    .discord_shape span:nth-child(1){
+        width: 60%;
+        height: 300px;
+        left: 0px;
+    }
+    .discord_shape span:nth-child(2){
+        width: 60%;
+        height: 400px;
+    }
+    .coming_shape span:nth-child(2){
+        width: 60%;
+        height: 200px;
+    }
+    .small_bg{
+        width: 100%;
+    }
+    .allocation_shape span:nth-child(1){
+        display: block;
+        width: 60%;
+        height: 300px;
+        background: #7d2a8479;
+        filter: blur(100px);
+        -webkit-filter: blur(100px);
+        position: absolute;
+        z-index: -1;
+        bottom: 0;
+        left: 0px;
+    }
+    .allocation_shape span:nth-child(2){
+        width: 60%;
+    }
+    .allocation_shape span:nth-child(3){
+        width: 60%;
+        height: 400px;
+    }
+    .allocation_shape span:nth-child(4){
+        width: 60%;
+    }
+    .s_two_shape span:nth-child(2){
+        right: 0;
+    }
+    .m_r_200{
+        margin-right: 0;
+    }
+    .ambassidor_shape span:nth-child(1){
+        right: 0;
+    }
+    .ambassidor_shape span:nth-child(2){
+        left: 0;
+    }
+    /* All position set for mobile devices */    /* All position set for mobile devices */
+    .card_shape span:nth-child(2){
+        width: 200px !important;
+        rotate: 0deg;
+    }
+    .bnr_img  img{
+        position: absolute;
+        width: 100%;
+        right: 0px;
+        top: -380px !important;
+    }
+    #banner_sec .bnr_txt .p{
+        font-size: 12px;
+    }
+    .bnr_shape span:nth-child(1){
+        width: 60%;
+        height: 300px;
+    }
+    .bnr_shape span:nth-child(2){
+        display: block;
+        width: 60%;
+        height: 300px;
+        left: 0px;
+    }
+    .ready_to_diven_shape span:nth-child(1){
+        width: 50%;
+        height: 300px;
+        left: 0px;
+    }
+    .ready_to_diven_shape span:nth-child(2){
+        width: 50%;
+        height: 300px;
+        right: 0px;
+    }
+    .modes_shape span:nth-child(1){
+        width: 50% !important;
+        height: 300px;
+        left: 0px;
+    }
+    .card_shape span:nth-child(2){
+        right: 0px;
+    }
+    .card_2_shape span:nth-child(1){
+        width: 60%;
+        height: 300px;
+    }
+    .card_2_shape span:nth-child(2){
+        width: 60%;
+        height: 300px;
+        right: 0px;
+    }
+    .choosing_bg_shape{
+        width: 60%;
+        height: 300px;
+        left: 10%;
+    }
+    .road_map_shape span:nth-child(1){
+        width: 60%;
+        height: 600px;
+        left: 0px;
+    }
+    .road_map_shape span:nth-child(2){
+        width: 60%;
+        height: 400px;
+        right: 0px;
+    }
+    .discord_shape span:nth-child(1){
+        width: 60%;
+        height: 300px;
+        left: 0px;
+    }
+    .discord_shape span:nth-child(2){
+        width: 60%;
+        height: 400px;
+    }
+    .coming_shape span:nth-child(2){
+        width: 60%;
+        height: 200px;
+    }
+    .small_bg{
+        width: 100%;
+    }
+    .allocation_shape span:nth-child(1){
+        display: block;
+        width: 60%;
+        height: 300px;
+        background: #7d2a8479;
+        filter: blur(100px);
+        -webkit-filter: blur(100px);
+        position: absolute;
+        z-index: -1;
+        bottom: 0;
+        left: 0px;
+    }
+    .allocation_shape span:nth-child(2){
+        width: 60%;
+    }
+    .allocation_shape span:nth-child(3){
+        width: 60%;
+        height: 400px;
+    }
+    .allocation_shape span:nth-child(4){
+        width: 60%;
+    }
+    .s_two_shape span:nth-child(2){
+        right: 0;
+    }
+    .m_r_200{
+        margin-right: 0;
+    }
+    .ambassidor_shape span:nth-child(1){
+        right: 0;
+    }
+    .ambassidor_shape span:nth-child(2){
+        left: 0;
+    }
+    /* All position set for mobile devices */    /* All position set for mobile devices */
+    .card_shape span:nth-child(2){
+        width: 200px !important;
+        rotate: 0deg;
+    }
+    .bnr_img  img{
+        position: absolute;
+        width: 100%;
+        right: 0px;
+        top: -380px !important;
+    }
+    #banner_sec .bnr_txt .p{
+        font-size: 12px;
+    }
+    .bnr_shape span:nth-child(1){
+        width: 60%;
+        height: 300px;
+    }
+    .bnr_shape span:nth-child(2){
+        display: block;
+        width: 60%;
+        height: 300px;
+        left: 0px;
+    }
+    .ready_to_diven_shape span:nth-child(1){
+        width: 50%;
+        height: 300px;
+        left: 0px;
+    }
+    .ready_to_diven_shape span:nth-child(2){
+        width: 50%;
+        height: 300px;
+        right: 0px;
+    }
+    .modes_shape span:nth-child(1){
+        width: 50% !important;
+        height: 300px;
+        left: 0px;
+    }
+    .card_shape span:nth-child(2){
+        right: 0px;
+    }
+    .card_2_shape span:nth-child(1){
+        width: 60%;
+        height: 300px;
+    }
+    .card_2_shape span:nth-child(2){
+        width: 60%;
+        height: 300px;
+        right: 0px;
+    }
+    .choosing_bg_shape{
+        width: 60%;
+        height: 300px;
+        left: 10%;
+    }
+    .road_map_shape span:nth-child(1){
+        width: 60%;
+        height: 600px;
+        left: 0px;
+    }
+    .road_map_shape span:nth-child(2){
+        width: 60%;
+        height: 400px;
+        right: 0px;
+    }
+    .discord_shape span:nth-child(1){
+        width: 60%;
+        height: 300px;
+        left: 0px;
+    }
+    .discord_shape span:nth-child(2){
+        width: 60%;
+        height: 400px;
+    }
+    .coming_shape span:nth-child(2){
+        width: 60%;
+        height: 200px;
+    }
+    .small_bg{
+        width: 100%;
+    }
+    .allocation_shape span:nth-child(1){
+        display: block;
+        width: 60%;
+        height: 300px;
+        background: #7d2a8479;
+        filter: blur(100px);
+        -webkit-filter: blur(100px);
+        position: absolute;
+        z-index: -1;
+        bottom: 0;
+        left: 0px;
+    }
+    .allocation_shape span:nth-child(2){
+        width: 60%;
+    }
+    .allocation_shape span:nth-child(3){
+        width: 60%;
+        height: 400px;
+    }
+    .allocation_shape span:nth-child(4){
+        width: 60%;
+    }
+    .s_two_shape span:nth-child(2){
+        right: 0;
+    }
+    .m_r_200{
+        margin-right: 0;
+    }
+    .ambassidor_shape span:nth-child(1){
+        right: 0;
+    }
+    .ambassidor_shape span:nth-child(2){
+        left: 0;
+    }
+    /* All position set for mobile devices */
 }
 
 /* 
@@ -2003,10 +2238,13 @@
     }
     .bnr_img  img{
         position: absolute;
-        width: 400px;
-        right: -180px;
-        top: -366px !important;
-    }   
+        right: -106px !important;
+        top: -545px !important;
+    }  
+    #banner_sec .bnr_txt{
+        position: relative;
+        z-index: 2;
+     } 
     #partner_section img{
         width: 100%;
     } 
@@ -2238,6 +2476,124 @@
     #rank_section h5{
         font-size: 20px;
     }
+
+        /* All position set for mobile devices */
+        .card_shape span:nth-child(2){
+            width: 200px !important;
+            rotate: 0deg;
+        }
+        .bnr_img  img{
+            position: absolute;
+            width: 80%;
+            right: -106px !important;
+            top: -455px !important;
+        }
+        #banner_sec .bnr_txt .p{
+            font-size: 12px;
+        }
+        .bnr_shape span:nth-child(1){
+            width: 60%;
+            height: 300px;
+        }
+        .bnr_shape span:nth-child(2){
+            display: block;
+            width: 60%;
+            height: 300px;
+            left: 0px;
+        }
+        .ready_to_diven_shape span:nth-child(1){
+            width: 50%;
+            height: 300px;
+            left: 0px;
+        }
+        .ready_to_diven_shape span:nth-child(2){
+            width: 50%;
+            height: 300px;
+            right: 0px;
+        }
+        .modes_shape span:nth-child(1){
+            width: 50% !important;
+            height: 300px;
+            left: 0px;
+        }
+        .card_shape span:nth-child(2){
+            right: 0px;
+        }
+        .card_2_shape span:nth-child(1){
+            width: 60%;
+            height: 300px;
+        }
+        .card_2_shape span:nth-child(2){
+            width: 60%;
+            height: 300px;
+            right: 0px;
+        }
+        .choosing_bg_shape{
+            width: 60%;
+            height: 300px;
+            left: 10%;
+        }
+        .road_map_shape span:nth-child(1){
+            width: 60%;
+            height: 600px;
+            left: 0px;
+        }
+        .road_map_shape span:nth-child(2){
+            width: 60%;
+            height: 400px;
+            right: 0px;
+        }
+        .discord_shape span:nth-child(1){
+            width: 60%;
+            height: 300px;
+            left: 0px;
+        }
+        .discord_shape span:nth-child(2){
+            width: 60%;
+            height: 400px;
+        }
+        .coming_shape span:nth-child(2){
+            width: 60%;
+            height: 200px;
+        }
+        .small_bg{
+            width: 100%;
+        }
+        .allocation_shape span:nth-child(1){
+            display: block;
+            width: 60%;
+            height: 300px;
+            background: #7d2a8479;
+            filter: blur(100px);
+            -webkit-filter: blur(100px);
+            position: absolute;
+            z-index: -1;
+            bottom: 0;
+            left: 0px;
+        }
+        .allocation_shape span:nth-child(2){
+            width: 60%;
+        }
+        .allocation_shape span:nth-child(3){
+            width: 60%;
+            height: 400px;
+        }
+        .allocation_shape span:nth-child(4){
+            width: 60%;
+        }
+        .s_two_shape span:nth-child(2){
+            right: 0;
+        }
+        .m_r_200{
+            margin-right: 0;
+        }
+        .ambassidor_shape span:nth-child(1){
+            right: 0;
+        }
+        .ambassidor_shape span:nth-child(2){
+            left: 0;
+        }
+        /* All position set for mobile devices */
     
 
 }
